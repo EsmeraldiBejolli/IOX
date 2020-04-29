@@ -114,12 +114,8 @@ Pod::Spec.new do |spec|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-
-  spec.framework  = "UIKIT"
-  spec.framework  = "Foundation"
-  spec.framework  = "SwiftUI"
   
-  spec.frameworks = "UIKIT", "Faundation", "SwiftUI"
+  spec.frameworks = "UIKIT", "Foundation", "SwiftUI"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
