@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileCard: UIView {
+class ProfileCard: UITableViewCell {
 
     /*
     // Only override draw() if you perform custom drawing.
@@ -16,6 +16,13 @@ class ProfileCard: UIView {
     override func draw(_ rect: CGRect) {
         // Drawing code
     }
-    */
+     */
 
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+    
+    
+    
 }
