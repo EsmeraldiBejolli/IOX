@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C41DF1DC2458DEBB005BEC54 /* IOX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EB7D212458551900A8CC3B /* IOX.framework */; };
 		C4EB7D302458551900A8CC3B /* IOXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB7D2F2458551900A8CC3B /* IOXTests.swift */; };
 		C4EB7D322458551900A8CC3B /* IOX.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EB7D242458551900A8CC3B /* IOX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4F16DF02458D7C100BC4ECB /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F16DEF2458D7C100BC4ECB /* ProfileCard.swift */; };
@@ -45,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41DF1DC2458DEBB005BEC54 /* IOX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
