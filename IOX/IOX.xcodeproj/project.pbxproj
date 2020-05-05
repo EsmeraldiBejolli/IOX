@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C49660EE2460ACB700E9D266 /* TaskViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49660ED2460ACB700E9D266 /* TaskViewCell.swift */; };
-		C4EB7D302458551900A8CC3B /* IOXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB7D2F2458551900A8CC3B /* IOXTests.swift */; };
 		C4EB7D322458551900A8CC3B /* IOX.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EB7D242458551900A8CC3B /* IOX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4F16DF02458D7C100BC4ECB /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F16DEF2458D7C100BC4ECB /* ProfileCard.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		C4EB7D242458551900A8CC3B /* IOX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOX.h; sourceTree = "<group>"; };
 		C4EB7D252458551900A8CC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4EB7D2A2458551900A8CC3B /* IOXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4EB7D2F2458551900A8CC3B /* IOXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOXTests.swift; sourceTree = "<group>"; };
 		C4EB7D312458551900A8CC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4F16DEF2458D7C100BC4ECB /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +81,6 @@
 		C4EB7D2E2458551900A8CC3B /* IOXTests */ = {
 			isa = PBXGroup;
 			children = (
-				C4EB7D2F2458551900A8CC3B /* IOXTests.swift */,
 				C4EB7D312458551900A8CC3B /* Info.plist */,
 			);
 			path = IOXTests;
@@ -217,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4EB7D302458551900A8CC3B /* IOXTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
