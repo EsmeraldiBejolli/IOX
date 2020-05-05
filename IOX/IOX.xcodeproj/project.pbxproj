@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C41DF1DC2458DEBB005BEC54 /* IOX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EB7D212458551900A8CC3B /* IOX.framework */; };
+		C49660EE2460ACB700E9D266 /* TaskViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49660ED2460ACB700E9D266 /* TaskViewCell.swift */; };
 		C4EB7D302458551900A8CC3B /* IOXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB7D2F2458551900A8CC3B /* IOXTests.swift */; };
 		C4EB7D322458551900A8CC3B /* IOX.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EB7D242458551900A8CC3B /* IOX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4F16DF02458D7C100BC4ECB /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F16DEF2458D7C100BC4ECB /* ProfileCard.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C49660ED2460ACB700E9D266 /* TaskViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewCell.swift; sourceTree = "<group>"; };
 		C4EB7D212458551900A8CC3B /* IOX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IOX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EB7D242458551900A8CC3B /* IOX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOX.h; sourceTree = "<group>"; };
 		C4EB7D252458551900A8CC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				C4F16DEF2458D7C100BC4ECB /* ProfileCard.swift */,
+				C49660ED2460ACB700E9D266 /* TaskViewCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F16DF02458D7C100BC4ECB /* ProfileCard.swift in Sources */,
+				C49660EE2460ACB700E9D266 /* TaskViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
